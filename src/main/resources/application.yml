@@ -1,0 +1,21 @@
+server:
+  port: 8080
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 637015665928-dpks0ide2i2d9i5dp2ihpajr69ttmrad.apps.googleusercontent.com
+            client-secret: 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
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: odilhon1985@gmail.com
+    password: uiihwzehdbqxvuoq
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
